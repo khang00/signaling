@@ -5,7 +5,7 @@ const CORS_OPTIONS = {
 }
 const CONNECTED_USERS = new Map()
 
-const server = new Server(3000, {
+const server = new Server(8000, {
     path: '/',
     pingInterval: 10000,
     pingTimeout: 5000,

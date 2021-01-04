@@ -1,6 +1,6 @@
 import {io} from 'socket.io-client'
 
-const alice = io('ws://localhost:3000')
+const alice = io('ws://localhost:8000')
 alice.on('connected', () => {
     alice.emit('login', {username: 'Alice'})
     alice.emit('message', {from: 'Alice', recipient: 'Bob', content: 'send nudes'})

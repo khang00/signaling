@@ -23,6 +23,7 @@ server.on('connection', socket => {
     socket.on('message', data => {
         if (CONNECTED_USERS.has(data.recipient)) {
             const recipient = CONNECTED_USERS.get(data.recipient)
+            console.log(data.content)
             server.to(recipient).emit('message', data)
         }
     })

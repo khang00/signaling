@@ -1,6 +1,3 @@
-import Peer from 'simple-peer'
-import io from 'socket.io-client'
-import wrtc from 'wrtc'
 import { Server } from 'socket.io'
 
 const CORS_OPTIONS = {

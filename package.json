@@ -8,8 +8,8 @@
     "test": "node server.mjs & node test/test.mjs"
   },
   "dependencies": {
-    "socket.io": "^3.0.4",
-    "socket.io-client": "^3.0.4",
+    "socket.io": "^3.0.0",
+    "socket.io-client": "^3.0.0",
     "typescript": "^4.1.3"
   }
 }
